@@ -12,35 +12,36 @@ const AddServiceForm = ({ addService }) => {
       setName('');
       setDescription('');
       setPrice('');
-    } else {
-      alert('Please fill all fields');
     }
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mt-4">
+    <form onSubmit={handleSubmit} className="mb-6 w-full max-w-md">
       <input
         type="text"
         placeholder="Service Name"
-        className="border p-2 mr-2"
         value={name}
         onChange={(e) => setName(e.target.value)}
+        className="block w-full p-2 mb-2 border rounded"
       />
       <input
         type="text"
         placeholder="Description"
-        className="border p-2 mr-2"
         value={description}
         onChange={(e) => setDescription(e.target.value)}
+        className="block w-full p-2 mb-2 border rounded"
       />
       <input
         type="number"
         placeholder="Price"
-        className="border p-2 mr-2"
         value={price}
         onChange={(e) => setPrice(e.target.value)}
+        className="block w-full p-2 mb-4 border rounded"
       />
-      <button className="bg-green-500 text-white px-4 py-2 rounded" type="submit">
+      <button
+        type="submit"
+        className="bg-blue-500 text-white px-4 py-2 rounded w-full"
+      >
         Add Service
       </button>
     </form>

@@ -2,8 +2,8 @@ import React from 'react';
 
 const ServiceList = ({ services, onDelete, onUpdate }) => {
   return (
-    <div className="mt-4">
-      {services.length > 0 &&
+    <div className="mt-4 w-full max-w-md">
+      {services.length > 0 ? (
         services.map((service, index) => (
           <div
             key={index}
@@ -30,7 +30,9 @@ const ServiceList = ({ services, onDelete, onUpdate }) => {
             </div>
           </div>
         ))
-      }
+      ) : (
+        <p className="text-gray-600">No services available. Please add services</p>
+      )}
     </div>
   );
 };
