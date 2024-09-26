@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mdzuelrana/2-healthcare-res-webs.git/static/css/main.f7917551.css",
-    "main.js": "/mdzuelrana/2-healthcare-res-webs.git/static/js/main.a0979181.js",
+    "main.css": "/mdzuelrana/2-healthcare-res-webs.git/static/css/main.6ff91265.css",
+    "main.js": "/mdzuelrana/2-healthcare-res-webs.git/static/js/main.00203279.js",
     "static/js/453.80d04b20.chunk.js": "/mdzuelrana/2-healthcare-res-webs.git/static/js/453.80d04b20.chunk.js",
     "index.html": "/mdzuelrana/2-healthcare-res-webs.git/index.html",
-    "main.f7917551.css.map": "/mdzuelrana/2-healthcare-res-webs.git/static/css/main.f7917551.css.map",
-    "main.a0979181.js.map": "/mdzuelrana/2-healthcare-res-webs.git/static/js/main.a0979181.js.map",
+    "main.6ff91265.css.map": "/mdzuelrana/2-healthcare-res-webs.git/static/css/main.6ff91265.css.map",
+    "main.00203279.js.map": "/mdzuelrana/2-healthcare-res-webs.git/static/js/main.00203279.js.map",
     "453.80d04b20.chunk.js.map": "/mdzuelrana/2-healthcare-res-webs.git/static/js/453.80d04b20.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7917551.css",
-    "static/js/main.a0979181.js"
+    "static/css/main.6ff91265.css",
+    "static/js/main.00203279.js"
   ]
 }
